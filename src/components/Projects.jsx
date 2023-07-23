@@ -91,9 +91,9 @@ export default function Projects() {
           </div>
         </Tilt>
       ))}
-      <p className=" md:p-8">
+      {/* <p className=" md:p-8">
         <a href="/">View All Projects</a>
-      </p>
+      </p> */}
     </section>
   );
 }
