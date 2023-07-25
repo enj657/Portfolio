@@ -39,7 +39,7 @@ export default function Experience() {
                   {dataItem.listItems.map((item, index) => (
                     <li
                       key={index}
-                      className="px-4 py-1 bg-gradient-to-b from-teal-900  to-teal-700 rounded-3xl md:shadow-3xl"
+                      className="px-4 py-1 bg-gradient-to-b from-[#B842DC]/80 to-[#7c2c95]/70 rounded-3xl md:shadow-3xl border-0 border-t border-white border-opacity-60 text-sm leading-6 mb-1"
                     >
                       {item}
                     </li>

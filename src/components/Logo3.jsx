@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const svgVariants = {
   visible: {
     transition: {
-      staggerChildren: 0.1, // Add a slight delay between animating each path
+      staggerChildren: 0, // Add a slight delay between animating each path
     },
   },
 };
@@ -17,8 +17,8 @@ const pathVariants = {
     pathLength: 1,
     fillOpacity: 1,
     transition: {
-      duration: 20,
-      ease: "easeOut",
+      duration: 12,
+      ease: "easeInOut",
     },
   },
 };

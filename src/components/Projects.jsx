@@ -2,6 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { workProjects } from "@component/data/data";
 import { personalProjects } from "@component/data/data";
+import Image from "next/image";
 
 export default function Projects() {
   const dataWorkProj = workProjects();

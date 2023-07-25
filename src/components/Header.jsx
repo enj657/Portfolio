@@ -19,7 +19,7 @@ export default function Header() {
                     <h1 className="w-48 md:w-80 relative">
                         {/* <Logo />
                         <Logo2 /> */}
-                        <a href="/"><Logo3 /></a>
+                        <Link href="/"><Logo3 /></Link>
                         
                     </h1> 
                 </div>
@@ -44,17 +44,17 @@ export default function Header() {
                 </div>
             </div>
             <ul className="flex flex-row gap-6">
-                <li><a href="https://github.com/enj657" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
+                <li><Link href="https://github.com/enj657" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
                     <span className="sr-only">Github</span>
-                    <Github /></a>
+                    <Github /></Link>
                 </li>
-                <li><a href="https://www.linkedin.com/in/enj657/" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
+                <li><Link href="https://www.linkedin.com/in/enj657/" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
                     <span className="sr-only">LinkedIn</span>
-                    <LinkedIn /></a>
+                    <LinkedIn /></Link>
                 </li>
-                <li><a href="" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
+                <li><Link href="" target="_blank" className="hover:text-teal-500 text-[#B842DC]">
                     <span className="sr-only">Resume</span>
-                    <Resume /></a>
+                    <Resume /></Link>
                 </li>
             </ul>
         </div>
