@@ -20,7 +20,7 @@ export const experience = () => {
       company: "St. Luke's Hospital",
       description:
         "Executed medical record database transition from legacy system to Cerner. Organized and prepared medical records for physician's use during patient visits. Coded service types into EMR platform to ensure consistent billing. Improved financial reconciliation process by creating an excel database of payments received to compare to expected collections from Cerner. Assisted with patient communication and appointment scheduling.",
-      listItems: ["Cerner", "eCW", "excel", "word"],
+      listItems: ["Cerner", "eCW", "Excel", "Word"],
     },
   ];
 

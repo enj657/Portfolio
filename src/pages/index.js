@@ -20,9 +20,9 @@ export default function Home() {
             <Header />
             <main className={`pt-12 lg:w-1/2 `}>
             <About />
+            <Projects />
             <Experience />
             <Education />
-            <Projects />
             </main>
         </div>
     </div>
